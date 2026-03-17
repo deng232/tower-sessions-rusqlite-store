@@ -23,7 +23,7 @@ rusqlite = "0.39.0"
 tokio-rusqlite = { git="https://github.com/deng232/tokio-rusqlite.git" ,version= "0.7.0"}
 thiserror = "2.0.18"
 time = "0.3.47"
-tower-sessions-core = { version = "0.14.0", features = ["deletion-task"] }
+tower-sessions-core = { version = "0.15.0", features = ["deletion-task"] }
 
 [dev-dependencies]
 axum = "0.8.8"
